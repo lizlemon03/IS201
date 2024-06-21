@@ -1,0 +1,82 @@
+.background{
+    background-color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .tableau{
+      width: 500px;
+  }
+
+  .header{
+      color: blueviolet;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .captions{
+      text-align: center;
+      color: darkblue;
+  }
+
+  .footer{
+      text-align: center;
+      color: red;
+  }
+
+  .extlink{
+      text-align: center;
+      font-size: larger;
+      align-items: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .extlink:hover{
+      background-color: greenyellow;
+  }
+
+  .extlink:visited{
+      color: blueviolet;
+  }
+
+  .top{
+    text-align: center;
+    font-size: larger;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .top:hover{
+      background-color: aqua;
+      color: chocolate;
+  }
+
+  .top:visited{
+      color: blueviolet;
+  }
